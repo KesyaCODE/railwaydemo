@@ -13,3 +13,7 @@ Route::get('/profil', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/pindahHalaman', function () {
+    return view('pindahHalaman');
+});
