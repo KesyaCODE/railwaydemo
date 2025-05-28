@@ -12,4 +12,4 @@ Route::get('/profil', function () {
 
 Route::get('/login', function () {
     return view('login');
-})->middleware(['auth'])->name('dashboard');
+});
